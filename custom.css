@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 2%, rgba(211,78,232,0.9920343137254902) 100%);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 235, 226);
+    margin: 10px 35px;
+    border-radius: 10px;
+}
+
+.branding img {
+    border-radius: 40%;
+    padding: 10px 10px 0px;
+}
+
+.social-media-link h2 {
+    margin: 10px;
+    color: rgb(0, 0, 156);
+}
+.social-media-link {
+    padding-bottom: 10px;
+}
+
+.social-media-link a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(243, 102, 9);
+    
+}
+
+.social-media-link a:hover {
+    color: rgb(2, 73, 34);
+}
+
+nav {
+    background-color: rgb(102, 59, 59);
+    margin: 10px 35px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+nav ul li {
+    margin: 0;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:rgb(245, 235, 226);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color:rgb(244, 255, 149);
+}
+
+.aboutme {
+    padding: 35px;
+}
+
+section {
+    padding: 20px;
+    background-color: rgb(245, 235, 226);
+    margin: 10px 35px;
+    border-radius: 10px;
+}
+
+.bold-test h3 {
+    padding-bottom: 10px;
+    color:rgb(0, 0, 156);
+}
+
+.body p {
+    margin-bottom: 20px;
+    color:rgb(2, 73, 34);;
+    line-height: 1.5;
+}
+
+.body p span {
+    font-weight: bold;
+    color:rgb(0, 0, 156);
+}
+
+.subscribe-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+
+.subscribe-email button {
+    padding: 3px;
+}
+
+.work-exp {
+    padding: 35px;
+    color: rgb(0, 0, 156);
+}
+.work-exp .experience {
+    padding-top: 10px;
+    color: rgb(2, 73, 34);
+}
+
+.work-exp .experience thead {
+    color: rgb(0, 0, 156);
+}
+
+.project-work {
+    padding: 20px 35px;
+    color: rgb(0, 0, 156);
+}
+
+.project-work .project {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.project-work .project a {
+    text-decoration: none;
+}
+
+.contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(2, 73, 34);
+    line-height: 1.5;
+
+}
+
+.contactme a {
+    color: rgb(0, 0, 156);
+}
+
+@media(max-width: 768px) {
+    nav ul {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    
+}
