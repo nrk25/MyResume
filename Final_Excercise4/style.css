@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 45px;
+}
+
+.container .header {
+    padding-bottom: 35px;
+}
+
+
+.container .faqs {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    padding: 25px;
+    margin: 25px auto 0px;
+    box-shadow: 1px -2px 5px rgb(224, 224, 224);
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+.faqs h3 {
+    font-weight: bolder;
+}
+
+.container .faq {
+    width: 650px;
+    text-align: justify;
+    margin-left: 250px;
+}
+
+.faq {
+    display: none;
+    overflow: hidden;
+    padding: 0 10px;
+}

@@ -136,6 +136,11 @@ section {
 
 .project-work .project a {
     text-decoration: none;
+    color: rgb(243, 102, 9);
+}
+
+.project-work .project a:hover {
+    color: rgb(2, 73, 34);
 }
 
 .contactme {

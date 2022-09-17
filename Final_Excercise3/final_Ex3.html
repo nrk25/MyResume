@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="calculate">
+        <div class="inputs">
+          <div>
+            <label for="num1">Num1 </label>
+            <input
+              type="number"
+              name="num1"
+              id="num1"
+              required
+              onchange="updateNum1(event)"
+            />
+          </div>
+          <br>
+          <div>
+            <label for="num2">Num2 </label>
+            <input
+              type="number"
+              name="num2"
+              id="num2"
+              required
+              onchange="updateNum2(event)"
+            />
+          </div>
+          <br>
+          <div>
+            <label for="result">Result </label>
+            <input type="number" name="result" id="result" />
+          </div>
+        </div>
+        <div class="buttons">
+          <input
+            type="button"
+            name="add"
+            id="add"
+            onclick="addition()"
+            value="+"
+          />
+          <input
+            type="button"
+            name="subtract"
+            id="subtract"
+            onclick="subtraction()"
+            value="-"
+          />
+          <input
+            type="button"
+            name="multiply"
+            id="multiply"
+            onclick="multiplication()"
+            value="x"
+          />
+          <input
+            type="button"
+            name="devide"
+            id="devide"
+            onclick="devision()"
+            value="/"
+          />
+        </div>
+      </form>
+    </div>
+    <script src="./test.js"></script>
+  </body>
+</html>
