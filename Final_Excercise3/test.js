@@ -2,7 +2,7 @@ var result1= document.getElementById("result");
 var number1 = 0;
 var number2 = 0;
 var sum = 0;
-var subract = 0;
+var subtract = 0;
 var multiply = 0;
 var devide = 0;
 
@@ -23,7 +23,7 @@ function addition() {
 
 function subtraction() {
     subtract = number1 - number2;
-    result1.value = subract;
+    result1.value = subtract;
 }
 
 function multiplication() {
