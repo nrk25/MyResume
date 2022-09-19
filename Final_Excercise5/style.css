@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(234, 243, 255);
+}
+
+.container {
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Poppins', Courier, monospace;
+}
+
+.container .our-menu {
+    text-align: center;
+    color: rgb(0, 76, 138);
+}
+
+.container .our-menu h1{
+    font-size: 3.5rem ;
+}
+
+.container .our-menu hr {
+    width: 100px;
+    margin: 0 auto;
+    border-top: 3px solid rgb(228, 155, 87);;
+}
+
+.nav-bar {
+    margin: 20px 25px 0px;
+    padding: 15x;
+    text-align: center;
+}
+
+.nav-bar .button1 {
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border: 1px solid rgb(228, 155, 87);
+    border-radius: 6px;
+    box-shadow: 1px 1px #414747;
+    color: rgb(228, 155, 87);
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 8px;
+}
+
+.nav-bar .button1:hover {
+    color: #ffffff;
+    background-color: rgb(228, 155, 87);
+    box-shadow: 1.5px 2.5px #414747;
+}
+
+.section-center {
+margin: 0 auto;
+padding: 0 25px;
+max-width: 80%;
+}
+
+.menu-item {
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.menu-item img {
+    border: 3px solid rgb(228, 155, 87);
+    border-radius: 10px;
+    width: 250px;
+}
+
+.item-info {
+    width: 100%;
+}
+
+.item-info header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted rgb(133, 199, 216);
+    padding: 6px 0px;
+    margin-bottom: 15px;
+}
+
+.item-info header h4 {
+    color: rgb(0, 76, 138);
+}
+
+.item-info .price {
+    color: rgb(228, 155, 87);
+}
+
+.item-info .item-text {
+    color: rgb(76, 144, 161);
+}
+
+
