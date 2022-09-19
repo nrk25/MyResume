@@ -4,6 +4,9 @@
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     text-align: center;
     margin: 50px auto;
     padding: 45px;
@@ -17,7 +20,7 @@
 .container .faqs {
     display: flex;
     justify-content: space-between;
-    width: 700px;
+    width: 40%;
     padding: 25px;
     margin: 25px auto 0px;
     box-shadow: 1px -2px 5px rgb(224, 224, 224);
@@ -31,13 +34,22 @@
 }
 
 .container .faq {
-    width: 650px;
-    text-align: justify;
-    margin-left: 250px;
+    width: 35%;
+    margin:0px auto;
+    text-align: left;
 }
 
 .faq {
     display: none;
     overflow: hidden;
     padding: 0 10px;
+}
+
+@media(max-width: 768px) {
+    .container .faqs {
+        width: 70%;
+    }
+    .container .faq {
+        width: 70%;
+    }
 }

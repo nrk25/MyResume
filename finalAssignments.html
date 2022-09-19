@@ -9,13 +9,15 @@
       body {
         background-color: #ffbfbf;
       }
+
       .container {
-        display: inline-block;
-        text-align: center;
-        margin: 20px;
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        margin: 20px 50px;
         padding: 25px;
-        
       }
+
       .container a {
         text-decoration: none;
         color: #ffffff;
@@ -27,26 +29,37 @@
       .container a:hover {
         color: #ff3030;
         background-color: #ffffff;
-        
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+        }
+        .container a{
+          text-align: center;
+        }
       }
     </style>
   </head>
+
   <body>
     <div class="container">
       <a href="./Final_Excercise1/index.html" target="_blank"
         >Excercise1 - Change Background Color</a
       >
       <a href="./Final_Excercise2/final_Ex2.html" target="_blank"
-      >Excercise2 - Counter App</a
+        >Excercise2 - Counter App</a
       >
       <a href="./Final_Excercise3/final_Ex3.html" target="_blank"
-      >Excercise3 - Simple Calculator</a
+        >Excercise3 - Simple Calculator</a
       >
       <a href="./Final_Excercise4/final_Ex4.html" target="_blank"
-      >Excercise4 - FAQs App</a
+        >Excercise4 - FAQs App</a
       >
       <a href="./Final_Excercise5/final_Ex5.html" target="_blank"
-      >Excercise5 - Our Menu</a
+        >Excercise5 - Our Menu</a
       >
     </div>
   </body>

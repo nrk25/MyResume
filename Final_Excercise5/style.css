@@ -97,4 +97,14 @@ max-width: 80%;
     color: rgb(76, 144, 161);
 }
 
-
+@media(max-width: 768px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu-item {
+        display: flex;
+        flex-direction: column;
+    }
+}
